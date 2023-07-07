@@ -1,0 +1,28 @@
+{
+  "name": "octoherd-just-testing",
+  "version": "0.0.0-development",
+  "type": "module",
+  "exports": "./script.js",
+  "bin": {
+    "octoherd-script-just-testing": "./cli.js"
+  },
+  "description": "just testing",
+  "scripts": {
+    "start": "node cli.js",
+    "test": "node script.js"
+  },
+  "repository": "https://github.com/gr2m/octoherd-script-just-testing",
+  "keywords": [
+    "octoherd-script"
+  ],
+  "author": "Gregor Martynus (https://dev.to/gr2m)",
+  "license": "ISC",
+  "dependencies": {
+    "@octoherd/cli": "^3.6.8"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
+}
